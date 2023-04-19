@@ -1,0 +1,4 @@
+{
+  "using": "css selector",
+  "value": "td[class='text-right'] h3 strong"
+}

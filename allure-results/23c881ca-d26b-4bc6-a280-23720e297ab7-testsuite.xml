@@ -1,0 +1,53 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1669136547277' stop='1669136559942'>
+    <name>UI Controls Test Suite</name>
+    <title>UI Controls Test Suite</title>
+    <test-cases>
+        <test-case start='1669136547277' status='passed' stop='1669136559941'>
+            <name>Checkboxes Identification - Sanity</name>
+            <title>Checkboxes Identification - Sanity</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-4'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.107'/>
+            </parameters>
+            <steps>
+                <step start='1669136547280' status='passed' stop='1669136559677'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='c5ab5f14-ed22-45f6-adef-750e4daa2fdf-attachment.json' type='application/json' size='68'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1669136559678' status='passed' stop='1669136559838'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='7ed1161b-e169-4ec9-b9e6-7d23eb4ea831-attachment.json' type='application/json' size='66'/>
+                        <attachment title='Response' source='0756a054-58ec-4d2a-bd10-21a6dccc49aa-attachment.json' type='application/json' size='275'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1669136559857' status='passed' stop='1669136559922'>
+                    <name>POST /session/:sessionId/element/264d0cc1-7954-4134-b1ea-e6e06467ca1a/click</name>
+                    <title>POST /session/:sessionId/element/264d0cc1-7954-4134-b1ea-e6e06467ca1a/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669136559922' status='passed' stop='1669136559939'>
+                    <name>GET /session/:sessionId/element/264d0cc1-7954-4134-b1ea-e6e06467ca1a/selected</name>
+                    <title>GET /session/:sessionId/element/264d0cc1-7954-4134-b1ea-e6e06467ca1a/selected</title>
+                    <attachments>
+                        <attachment title='Response' source='bd60165e-d67f-41db-a9bd-630aaf5d4b9a-attachment.json' type='application/json' size='4'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,5 @@
+{
+  "error": "no such element",
+  "message": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".nav-item.active\"}\n  (Session info: chrome=107.0.5304.121)",
+  "stacktrace": "Backtrace:\n\tOrdinal0 [0x00B8ACD3+2075859]\n\tOrdinal0 [0x00B1EE61+1633889]\n\tOrdinal0 [0x00A1B7BD+571325]\n\tOrdinal0 [0x00A4AC2F+764975]\n\tOrdinal0 [0x00A4AE1B+765467]\n\tOrdinal0 [0x00A7D0F2+970994]\n\tOrdinal0 [0x00A67364+881508]\n\tOrdinal0 [0x00A7B56A+963946]\n\tOrdinal0 [0x00A67136+880950]\n\tOrdinal0 [0x00A3FEFD+720637]\n\tOrdinal0 [0x00A40F3F+724799]\n\tGetHandleVerifier [0x00E3EED2+2769538]\n\tGetHandleVerifier [0x00E30D95+2711877]\n\tGetHandleVerifier [0x00C1A03A+521194]\n\tGetHandleVerifier [0x00C18DA0+516432]\n\tOrdinal0 [0x00B2682C+1665068]\n\tOrdinal0 [0x00B2B128+1683752]\n\tOrdinal0 [0x00B2B215+1683989]\n\tOrdinal0 [0x00B36484+1729668]\n\tBaseThreadInitThunk [0x77657BA9+25]\n\tRtlInitializeExceptionChain [0x7788BB9B+107]\n\tRtlClearBits [0x7788BB1F+191]\n"
+}

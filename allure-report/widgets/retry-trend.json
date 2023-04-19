@@ -1,0 +1,1 @@
+[{"buildOrder":3,"reportUrl":"http://localhost:9090/job/WebDriverIO/3/allure","reportName":"AllureReport","data":{"run":30,"retry":88}},{"buildOrder":2,"reportUrl":"http://localhost:9090/job/WebDriverIO/2/allure","reportName":"AllureReport","data":{"run":27,"retry":72}}]

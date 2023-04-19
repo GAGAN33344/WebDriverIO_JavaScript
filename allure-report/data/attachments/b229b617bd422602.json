@@ -1,0 +1,136 @@
+{
+  "id": {
+    "sessionId": "8235b9c8cd1259749a5128f9dee117b2",
+    "elementId": "491a9d57-fbea-4c8a-a745-6b14f9fe4801",
+    "element-6066-11e4-a52e-4f735466cecf": "491a9d57-fbea-4c8a-a745-6b14f9fe4801",
+    "selector": "[id='courses-iframe']",
+    "parent": {
+      "sessionId": "8235b9c8cd1259749a5128f9dee117b2",
+      "capabilities": {
+        "acceptInsecureCerts": true,
+        "browserName": "chrome",
+        "browserVersion": "107.0.5304.121",
+        "chrome": {
+          "chromedriverVersion": "107.0.5304.62 (1eec40d3a5764881c92085aaee66d25075c159aa-refs/branch-heads/5304@{#942})",
+          "userDataDir": "C:\\Users\\gagan\\AppData\\Local\\Temp\\scoped_dir27520_775348337"
+        },
+        "goog:chromeOptions": {
+          "debuggerAddress": "localhost:52881"
+        },
+        "networkConnectionEnabled": false,
+        "pageLoadStrategy": "normal",
+        "platformName": "windows",
+        "proxy": {},
+        "setWindowRect": true,
+        "strictFileInteractability": false,
+        "timeouts": {
+          "implicit": 0,
+          "pageLoad": 300000,
+          "script": 30000
+        },
+        "unhandledPromptBehavior": "dismiss and notify",
+        "webauthn:extension:credBlob": true,
+        "webauthn:extension:largeBlob": true,
+        "webauthn:virtualAuthenticators": true
+      },
+      "config": {
+        "specs": [
+          "./test/specs/**/*.js"
+        ],
+        "suites": {
+          "uiControlsAndWindowsFrames": [
+            "test/specs/uiControls.js",
+            "test/specs/windowsFrames.js"
+          ],
+          "eCommerceE2E": [
+            "test/specs/eCommerceE2E.js"
+          ]
+        },
+        "exclude": [],
+        "logLevel": "info",
+        "logLevels": {},
+        "excludeDriverLogs": [],
+        "bail": 5,
+        "waitforInterval": 500,
+        "waitforTimeout": 10000,
+        "framework": "mocha",
+        "reporters": [
+          [
+            "allure",
+            {
+              "outputDir": "allure-results",
+              "disableWebdriverScreenshotsReporting": false
+            }
+          ]
+        ],
+        "services": [
+          "chromedriver"
+        ],
+        "maxInstances": 10,
+        "maxInstancesPerCapability": 100,
+        "filesToWatch": [],
+        "connectionRetryTimeout": 120000,
+        "connectionRetryCount": 3,
+        "execArgv": [],
+        "runnerEnv": {},
+        "runner": "local",
+        "specFileRetries": 0,
+        "specFileRetriesDelay": 0,
+        "specFileRetriesDeferred": false,
+        "reporterSyncInterval": 100,
+        "reporterSyncTimeout": 5000,
+        "cucumberFeaturesWithLineNumbers": [],
+        "autoCompileOpts": {
+          "autoCompile": true,
+          "tsNodeOpts": {
+            "transpileOnly": true
+          },
+          "babelOpts": {}
+        },
+        "mochaOpts": {
+          "timeout": 60000,
+          "ui": "bdd"
+        },
+        "jasmineOpts": {
+          "defaultTimeoutInterval": 10000
+        },
+        "cucumberOpts": {
+          "timeout": 10000
+        },
+        "onPrepare": [],
+        "onWorkerStart": [],
+        "onWorkerEnd": [],
+        "before": [],
+        "beforeSession": [],
+        "beforeSuite": [],
+        "beforeHook": [],
+        "beforeTest": [],
+        "beforeCommand": [],
+        "afterCommand": [],
+        "afterTest": [
+          null
+        ],
+        "afterHook": [],
+        "afterSuite": [],
+        "afterSession": [],
+        "after": [],
+        "onComplete": [],
+        "onReload": [],
+        "beforeFeature": [],
+        "beforeScenario": [],
+        "beforeStep": [],
+        "afterStep": [],
+        "afterScenario": [],
+        "afterFeature": [],
+        "baseUrl": "http://www.rahulshettyacademy.com",
+        "_": [
+          "run"
+        ],
+        "$0": "node_modules\\@wdio\\cli\\bin\\wdio.js",
+        "config-path": "wdio.conf.js",
+        "ignoredWorkerServices": []
+      }
+    },
+    "isReactElement": false
+  }
+}

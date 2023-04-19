@@ -1,0 +1,5 @@
+{
+  "error": "no such element",
+  "message": "no such element: Unable to locate element: {\"method\":\"partial link text\",\"selector\":\"Checkout\"}\n  (Session info: chrome=107.0.5304.122)",
+  "stacktrace": "Backtrace:\n\tOrdinal0 [0x00F2ACD3+2075859]\n\tOrdinal0 [0x00EBEE61+1633889]\n\tOrdinal0 [0x00DBB7BD+571325]\n\tOrdinal0 [0x00DEAC2F+764975]\n\tOrdinal0 [0x00DEAE1B+765467]\n\tOrdinal0 [0x00E1D0F2+970994]\n\tOrdinal0 [0x00E07364+881508]\n\tOrdinal0 [0x00E1B56A+963946]\n\tOrdinal0 [0x00E07136+880950]\n\tOrdinal0 [0x00DDFEFD+720637]\n\tOrdinal0 [0x00DE0F3F+724799]\n\tGetHandleVerifier [0x011DEED2+2769538]\n\tGetHandleVerifier [0x011D0D95+2711877]\n\tGetHandleVerifier [0x00FBA03A+521194]\n\tGetHandleVerifier [0x00FB8DA0+516432]\n\tOrdinal0 [0x00EC682C+1665068]\n\tOrdinal0 [0x00ECB128+1683752]\n\tOrdinal0 [0x00ECB215+1683989]\n\tOrdinal0 [0x00ED6484+1729668]\n\tBaseThreadInitThunk [0x763A7BA9+25]\n\tRtlInitializeExceptionChain [0x7765BB9B+107]\n\tRtlClearBits [0x7765BB1F+191]\n"
+}
